@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calulator.css">
+</head>
+<body>
+    <h3>Calculator</h3>
+
+    
+
+    <table border="1" style="border-radius: 5px;">
+        <tr>
+            <th>
+                <button onclick="
+                    calculation = '';
+                    console.log(calculation);
+                    ">C</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '/';
+                    console.log(calculation);
+                    ">/</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '*';
+                    console.log(calculation);
+                    ">*</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '+';
+                    console.log(calculation);
+                    ">+</button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button onclick="
+                    calculation += '7';
+                    console.log(calculation);
+                    ">7</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '8';
+                    console.log(calculation);
+                    ">8</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '9';
+                    console.log(calculation);
+                    ">9</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '-';
+                    console.log(calculation);
+                    ">-</button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button onclick="
+                    calculation += '4';
+                    console.log(calculation);
+                    ">4</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '5';
+                    console.log(calculation);
+                    ">5</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '6';
+                    console.log(calculation);
+                    ">6</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation = eval(calculation);
+                    console.log(calculation);
+                    ">=</button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button onclick="
+                    calculation += '1';
+                    console.log(calculation);
+                    ">1</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '2';
+                    console.log(calculation);
+                    ">2</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '3';
+                    console.log(calculation);
+                    ">3</button>
+            </th>
+            <th>
+                
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <button onclick="
+                    calculation += '0';
+                    console.log(calculation);
+                    ">0</button>
+            </th>
+            <th>
+                <button onclick="
+                    calculation += '.';
+                    console.log(calculation);
+                    ">.</button>
+            </th>
+        </tr>
+    </table>
+
+<script>
+    let calculation = '';
+</script>
+    
+</body>
+</html>
